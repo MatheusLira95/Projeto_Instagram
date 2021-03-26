@@ -78,6 +78,7 @@ ion-icon{
     display: flex;
     justify-content: space-between;
     width: 935px;
+    
 
 }
 
@@ -189,7 +190,7 @@ ion-icon{
     font-size: 14px;
 }
 .foto-feed{
-    width: inherit;
+    width: 100%;
     display: flex;
     justify-content: center;
     
