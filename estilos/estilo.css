@@ -78,7 +78,7 @@ ion-icon{
     display: flex;
     justify-content: space-between;
     width: 935px;
-    
+    position: relative;
 
 }
 
@@ -230,11 +230,59 @@ video{
     margin-right: 5px;
     
 }
+.comments{
+    
+    font-size: 14px;
+    margin-left: 16px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.comments span {
+    margin-left: 5px;
+}
+.comment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.comment ion-icon{
+    margin-right: 15px;
+}
 
+.smile{
+    background: url(Videos-Imagens/happyoutline.svg);
+    height: 30px;
+    border: none;
+    margin-left: 15px;
+    
+    margin-bottom: -8px;
+    
+}
+
+.comment-bar{
+    width: 79%;
+    text-align: left;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.publish{
+    border: none;
+    background-color:#B2DFFC;
+    color:  #fff;
+    transition-duration: 0.3s;
+    height: 20px;
+}
+.publish:hover{
+    background-color: #0095F6;
+}
 .sidebar{
     width: 293px;
     height: 500px;
-    
+    position: fixed;
+    right: 400px;
 }
 .top-side{
     display: flex;
